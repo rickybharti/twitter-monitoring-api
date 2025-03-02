@@ -22,7 +22,6 @@ app.listen(config.port, () => {
 
 // Initialize Telegram and Discord bots
 telegramService.initTelegramBot();
-discordService.initDiscordBot();
 
 /**
  * Automatically sets the global webhook URL on startup.
