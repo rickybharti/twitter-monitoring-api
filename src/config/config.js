@@ -8,4 +8,5 @@ module.exports = {
   discordBotToken: process.env.DISCORD_BOT_TOKEN,
   discordChannelId: process.env.DISCORD_CHANNEL_ID,
   globalWebhookUrl: process.env.GLOBAL_WEBHOOK_URL,
+  allowedTelegramUsers: process.env.ALLOWED_TELEGRAM_USERS,
 };
