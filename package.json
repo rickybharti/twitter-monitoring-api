@@ -1,0 +1,18 @@
+{
+  "name": "twitter-monitoring-api",
+  "version": "1.0.0",
+  "description": "A Node.js project for monitoring Twitter events using SocialData API and distributing notifications to Telegram and Discord.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.1",
+    "discord.js": "^14.0.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "node-telegram-bot-api": "^0.60.0",
+    "winston": "^3.8.2"
+  }
+}
